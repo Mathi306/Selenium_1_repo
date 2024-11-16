@@ -2,6 +2,7 @@ package books;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
+import org.testng.Reporter;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -24,6 +25,7 @@ public class Tc_DWS_006_Test extends BaseClass {
 		
 		Assert.assertEquals(driver.getTitle(),"cmputer page is not displayed");
 		test.log(Status.PASS,"compters page is displayed");
+		Reporter.log("Welcome Automation TestLead", true);
        }
 
 		
