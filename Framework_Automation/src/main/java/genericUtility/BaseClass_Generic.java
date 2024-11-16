@@ -70,7 +70,7 @@ public class BaseClass_Generic {
 		wp.getLoginLink().click();
 		
 		lp=new LoginPage(driver);
-		lp.getEmailtextField().sendKeys(futil.properties("email"));
+		lp.getEmailTextField().sendKeys(futil.properties("email"));
 		lp.getPasswordTextField().sendKeys((futil).properties("password"));
 		lp.getLoginButton().click();
 		
