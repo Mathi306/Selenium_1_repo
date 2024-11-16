@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 public class GitHub1 {
        @Test
-       public void Demo() {
+       public void GitHubPush() {
     	   Reporter.log("Welcome selenium", true);
        }
 }
